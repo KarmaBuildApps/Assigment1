@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="You have Entered"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_cFName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="First Name" />
+
+    <TextView
+        android:id="@+id/tv_cLName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Last Name" />
+
+    <TextView
+        android:id="@+id/tv_cDOB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="DOB" />
+
+    <TextView
+        android:id="@+id/tv_cGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Gender" />
+
+    <TextView
+        android:id="@+id/tv_cNationality"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Country" />
+
+    <TextView
+        android:id="@+id/tv_cEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Email" />
+
+    <TextView
+        android:id="@+id/tv_cAddressLine1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Address Line 1" />
+    <TextView
+        android:id="@+id/tv_cAddressLine2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Address Line 2" />
+    <TextView
+        android:id="@+id/tv_cAddressCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="City" />
+    <TextView
+        android:id="@+id/tv_cAddressPostcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Postcode" />
+    <TextView
+        android:id="@+id/tv_cAddressCountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Country" />
+
+
+</LinearLayout>
